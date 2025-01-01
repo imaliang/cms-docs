@@ -22,6 +22,9 @@ cloud-media-sync（**CMS**）--- 云端媒体库同步工具
 
 **CMS** 目前仅支持使用[Docker 容器配置](https://github.com/HuLuXi/cms-docs/blob/master/%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8.md#%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8)，可直接点击链接了解docker配置流程。
 
-目前教程还在初步编写阶段，可以根据对应功能的教程，点击对应链接浏览相关内容完成设置。
+------
 
-对于完全没接触过的小白，可以直接进入[新手入门](https://github.com/HuLuXi/cms-docs/blob/master/%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8.md#%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8)先了解docker容器的安装及配置流程，再根据[初始化](https://github.com/HuLuXi/cms-docs/blob/master/%E5%88%9D%E5%A7%8B%E5%8C%96.md)流程来完成功能设置。
+- 目前教程还在初步编写阶段，可以根据对应功能的教程，**点击对应链接**浏览相关内容完成设置。
+
+
+- 对于完全没接触过的小白，可以直接进入[新手入门](https://github.com/HuLuXi/cms-docs/blob/master/%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8.md#%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8)先了解docker容器的安装及配置流程，再根据[初始化](https://github.com/HuLuXi/cms-docs/blob/master/%E5%88%9D%E5%A7%8B%E5%8C%96.md)流程来完成功能设置。
