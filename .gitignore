@@ -1,0 +1,9 @@
+node_modules
+.vitepress/dist
+.vitepress/cache
+!README.md
+!README_en-US.md
+!about.md
+!tags.md
+!archives.md
+!category.md
