@@ -23,3 +23,79 @@ Shōgun => tmdb=126308
 (航海王|海贼王|\[one_piece\]).*?\b(?!1999)(0{0,2}87[8-9]|0{0,2}88\d|0{0,2}89[0-1])\b => tmdb=37854.海贼王.1999.S20E\2
 (航海王|海贼王|\[one_piece\]).*?\b(?!1999)(89[2-9]|9\d{2}|10[0-7]\d|108[0-8])\b => tmdb=37854.海贼王.1999.S21E\2
 (航海王|海贼王|\[one_piece\]).*?\b(?!1999)(1089|109\d|11\d{2}|[1]\d{3,})\b => tmdb=37854.海贼王.1999.S22E\2
+#别名
+.*[\. ]([Aa][Kk][Aa])[\. ]
+#音频
+DTS-HDMA1.0 => DTS-HD.MA.1.0
+DTS-HDMA2.0 => DTS-HD.MA.2.0
+DTS-HDMA2.1 => DTS-HD.MA.2.1
+DTS-HDMA5.0 => DTS-HD.MA.5.0
+DTS-HDMA5.1 => DTS-HD.MA.5.1
+DTS-HDMA7.1 => DTS-HD.MA.7.1
+DDP1.0 => DDP.1.0
+DDP2.0 => DDP.2.0
+DDP2.1 => DDP.2.1
+DDP5.0 => DDP.5.0
+DDP5.1 => DDP.5.1
+DDP7.1 => DDP.7.1
+#视频
+[Ff][Pp][Ss] => 帧
+[\. ][Hh][Ff][Rr] => .高帧版
+Dolby.Vision => DoVi
+[\. ]H-?SBS[\. ]|[\. ]Half-?SBS[\. ]|[\. ]h-?sbs[\. ]|[\. ]H-?sbs[\. ] => .左右3D
+[\. ]H-?OU[\. ]|[\. ]Half-?OU[\. ]|[\. ]h-?ou[\. ]|[\. ]H-?ou[\. ] => .上下3D
+[\. ]IMAX版?|[\. ]Imax版?|[\. ]imax版?|[\. ]iMax版? => .IMAX版
+[\. ][Ee][Dd][Rr]|[\. ][Hh][Qq] => .高码版
+Pure@HDSWEB => 去广告纯净版-HDSWEB
+#版本
+[\. ]2[iI][Nn]1 => .二合一版
+[\. ][23][Dd][\+& ]?[32][Dd] => .23D二合一版
+[\. ]RERIP|[\. ]Rerip|[\. ]rerip => .重新压制版
+[\. ]REPACK|[\. ]Repack|[\. ]repack => .重新打包版
+[\. ]Unrate|[\. ]UNRATE|[\. ]unrate => .未分级版
+[\. ]UNCUT|[\. ]Uncut|[\. ]uncut => .未剪版
+[\. ]Director'?s[\. ]?Cut|[\. ]DC[\. ] => .导演剪辑版
+[\. ]Theatrical[\. ]?Cut|[\. ]Theatrical|[\. ]Theatrical[\. ]?Version => .剧场版
+[\. ]Open[\. ]?Matte => .非正式全幅版
+[\. ]LIMITED|[\. ]Limited|[\. ]limited => .限制级版
+[\. ]PROPER|[\. ]Proper|[\. ]proper => .优化版
+[\. ]Extended|[\. ]EXTENDED|[\. ]extended => .加长版
+[\. ]Black[\. ]?[Aa][nd|&][\. ]?White[. ]?Version => .黑白版
+[\. ]Anniversary[\. ]?[Edition|Version] => .周年纪念版
+[\. ]Colored[\. ]?Version => .彩色版
+[\. ]Widescreen|[\. ]WIDESCREEN|[\. ]widescreen|[\. ]WideScreen => .宽屏版
+[\. ]REMASTERED|[\. ]remastered|[\. ]Remastered => .重新灌录版
+[\. ][Cc][Ee][Ee]版 => .CEE版
+[\. ]CC|[\. ]CC版|[\. ]CC收藏版|[\. ]Criterion[\. ]?Collection|[\. ]criterion[\. ]?collection => .CC收藏版
+#平台
+[\. ]PCOK|[\. ]Peacock => .环球孔雀版
+[\. ]H?Max|[\. ]H?MAX|[\. ]HBOG?O? => .华纳MAX版
+[\. ]ATVP|[\. ]Atvp|[\. ]atvp|[\. ]Apple\.?TV\+?|[\. ]Apple\.?tv\+?|[\. ]apple\.?tv\+?|[\. ]APPLE\.?TV\+? => .苹果TV+版
+[\. ]AMAZON|[\. ]Amazon|[\. ]amazon|[\. ]AMZN|[\. ]Amzn|[\. ]amzn => .亚马逊Prime版
+[\. ]NF|[\. ]nf|[\. ]Nf|[\. ]Netflix|[\. ]NETFLIX|[\. ]netflix => .网飞版
+[\. ]DSNP|[\. ]dsnp|[\. ]Dsnp|[\. ]Disney\+?|[\. ]disney\+?|[\. ]DISNEY\+? => .迪士尼Plus版
+[\. ]B-?Global|[\. ]B-?GLOBAL|[\. ]b-?global => .B站东南亚版
+[\. ]iQiyi|[\. ]IQIYI|[\. ]iqiyi|[\. ]IQ => .爱奇艺国外版
+[\. ]BILIBILI|[\. ]Bilibili|[\. ]bilibili => .B站版
+[\. ]Baha|[\. ]BAHA|[\. ]baha => .巴哈版
+#地区
+[\. ]BRA|巴版 => .巴西版
+[\. ]HUN|[\. ]匈版|[\. ]匈牙利版 => .匈牙利版
+[\. ]TWN?|台版 => .台湾版
+[\. ]CHN|大陆版|内地版 => .中国版
+[\. ]CZE|捷版 => .捷克版
+[\. ]NOR|挪版 => .挪威版
+[\. ]IND|印版 => .印度版
+[\. ]SPA|西版 => .西班牙版
+[\. ]ITA|意版|Italian[\. ]?Version => .意大利版
+[\. ]EUR|欧版 => .欧洲版
+[\. ]CAN|加版 => .加拿大版
+[\. ]AUS|澳版 => .澳大利亚版
+[\. ]NODIC|北欧五国 => .北欧五国版
+[\. ]KOR|韩版 => .韩国版
+[\. ]GBR|UK|英版 => .英国版
+[\. ]JPN|日版 => .日本版
+[\. ]HKG?|港版 => .香港版
+[\. ]GER|德版 => .德国版
+[\. ]USA?|美版 => .美国版
+[\. ]FRA|法版 => .法国版
